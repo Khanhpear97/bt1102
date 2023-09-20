@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt('Number');
+    let a = 1;
+    while (n < 1) {
+        alert(n + ' không phải số nguyên dương');
+        n = +prompt('Number');
+    }
+    for (i = 1; i <= n; i++) {
+        a = a * i;
+    }
+    document.write(a);
+</script>
+</body>
+</html>

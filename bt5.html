@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let money = +prompt('Money');
+  let year = +prompt('Year');
+  let profit;
+  for (i = 0; i < year; i++) {
+    profit = money * 0.056;
+    money += profit;
+  }
+  document.write(money);
+</script>
+</body>
+</html>
